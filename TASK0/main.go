@@ -27,7 +27,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	response := Response{
-		Email:         "johnson.oragui",
+		Email:         "johnson.oragui@gmai.com",
 		CurrentTime:   time.Now().UTC().Format(time.RFC3339),
 		GitHubRepoURL: "https://github.com/johnson-oragui/hng12",
 	}
