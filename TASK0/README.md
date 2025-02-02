@@ -42,7 +42,6 @@ GET / http://hng-task0.randomallstudio.tech/api/v1/task0
 
 ```sh
 git clone https://github.com/johnson-oragui/hng12
-cd TASK0
 ```
 
 ### **2️⃣ Install Dependencies**
@@ -54,7 +53,7 @@ go mod tidy
 ### **3️⃣ Run the API Locally**
 
 ```sh
-go run main.go
+go run TASK0/main.go
 ```
 
 ### **4️⃣ Test the API**
